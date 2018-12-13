@@ -1,5 +1,9 @@
+# comment to satisfy rubocop
 class Quiz
-  attr_accessor :quiz_question, :correct_answer, :quiz_length, :question_answer_pairs, :current_score, :wrong_answers, :user_answer, :total_points_possible, :wants_to_retry, :previous_score, :score_log
+  attr_accessor :quiz_question, :correct_answer, :quiz_length,
+                :question_answer_pairs, :current_score, :wrong_answers,
+                :user_answer, :total_points_possible, :wants_to_retry,
+                :previous_score, :score_log
 
   def initialize(attr)
     @quiz_question = attr[:quiz_question]
